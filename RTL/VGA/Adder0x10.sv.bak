@@ -1,0 +1,7 @@
+module	Adder0x10	(	
+					input	logic	param1,
+					input logic param2,
+					
+					output loogc
+					
+ ) ;

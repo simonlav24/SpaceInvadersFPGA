@@ -1,0 +1,10 @@
+Warning (10268): Verilog HDL information at back_ground_drawSquare.sv(50): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/back_ground_drawSquare.sv Line: 50
+Warning (10268): Verilog HDL information at back_ground_draw.sv(181): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/back_ground_draw.sv Line: 181
+Warning (10268): Verilog HDL information at HartsMatrixBitMap.sv(349): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/HartsMatrixBitMap.sv Line: 349
+Warning (10268): Verilog HDL information at lpf.sv(42): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/KEYBOARD/lpf.sv Line: 42
+Warning (10268): Verilog HDL information at byterec.sv(69): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/KEYBOARD/byterec.sv Line: 69
+Warning (10268): Verilog HDL information at bitrec.sv(52): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/KEYBOARD/bitrec.sv Line: 52
+Warning (10268): Verilog HDL information at monstersMovement.sv(73): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/monstersMovement.sv Line: 73
+Warning (10268): Verilog HDL information at bomb_object.sv(46): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/bomb_object.sv Line: 46
+Warning (10268): Verilog HDL information at shields_mat.sv(49): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/shields_mat.sv Line: 49
+Warning (10268): Verilog HDL information at end_screen.sv(57): always construct contains both blocking and non-blocking assignments File: D:/study/Lab/Project/RTL/VGA/end_screen.sv Line: 57
