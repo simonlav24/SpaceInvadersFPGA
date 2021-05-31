@@ -1,5 +1,5 @@
 Archive Project report for Lab1Demo
-Mon May 24 21:35:21 2021
+Mon May 31 16:51:23 2021
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Mon May 24 21:35:21 2021 ;
+; Archive Project Status ; Successful - Mon May 31 16:51:23 2021 ;
 ; Revision Name          ; Lab1Demo                              ;
 ; Top-level Entity Name  ; TOP_VGA_DEMO_KBD                      ;
 ; Family                 ; Cyclone V                             ;
@@ -53,16 +53,16 @@ Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory D:/study/Lab/Project/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'D:/study/Lab/projectsimonevan24_5_2021.qar'
+Info: Generated archive 'D:/study/Lab/projectsimonevan31_5_2021.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'Lab1Demo.archive.rpt'
 Info (23030): Evaluation of Tcl script d:/study/lab/software/intelfpga_lite/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4832 megabytes
-    Info: Processing ended: Mon May 24 21:35:21 2021
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4831 megabytes
+    Info: Processing ended: Mon May 31 16:51:23 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
 +-------------------------------------------------------+

@@ -303,110 +303,6 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 192 16 408 128)
-	(text "random" (rect 5 0 41 12)(font "Arial" ))
-	(text "inst" (rect 8 96 25 108)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "resetN" (rect 0 0 33 12)(font "Arial" ))
-		(text "resetN" (rect 21 43 54 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "rise" (rect 0 0 17 12)(font "Arial" ))
-		(text "rise" (rect 21 59 38 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 216 32)
-		(output)
-		(text "dout[SIZE_BITS-1..0]" (rect 0 0 105 12)(font "Arial" ))
-		(text "dout[SIZE_BITS-1..0]" (rect 107 27 212 39)(font "Arial" ))
-		(line (pt 216 32)(pt 200 32)(line_width 3))
-	)
-	(parameter
-		"SIZE_BITS"
-		"5"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"MIN_VAL"
-		"00000000000000000000000000000000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"MAX_VAL"
-		"00000000000000000000000000010000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 200 96))
-	)
-	(annotation_block (parameter)(rect 408 -64 783 12))
-)
-(symbol
-	(rect 192 176 408 288)
-	(text "random" (rect 5 0 41 12)(font "Arial" ))
-	(text "inst2" (rect 8 96 30 113)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "resetN" (rect 0 0 33 12)(font "Arial" ))
-		(text "resetN" (rect 21 43 54 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "rise" (rect 0 0 17 12)(font "Arial" ))
-		(text "rise" (rect 21 59 38 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 216 32)
-		(output)
-		(text "dout[SIZE_BITS-1..0]" (rect 0 0 105 12)(font "Arial" ))
-		(text "dout[SIZE_BITS-1..0]" (rect 107 27 212 39)(font "Arial" ))
-		(line (pt 216 32)(pt 200 32)(line_width 3))
-	)
-	(parameter
-		"SIZE_BITS"
-		"5"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"MIN_VAL"
-		"00000000000000000000000000000000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"MAX_VAL"
-		"00000000000000000000000000000101"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 200 96))
-	)
-	(annotation_block (parameter)(rect 408 96 783 172))
-)
-(symbol
 	(rect 776 328 1000 472)
 	(text "square_object" (rect 5 0 73 12)(font "Arial" ))
 	(text "inst11" (rect 8 128 36 145)(font "Intel Clear" ))
@@ -585,35 +481,35 @@ agreement for further details.
 		(pt 256 32)
 		(output)
 		(text "monster_shootX[10..0]" (rect 0 0 110 12)(font "Arial" ))
-		(text "monster_shootX[10..0]" (rect 142 27 235 39)(font "Arial" ))
+		(text "monster_shootX[10..0]" (rect 142 27 252 39)(font "Arial" ))
 		(line (pt 256 32)(pt 240 32)(line_width 3))
 	)
 	(port
 		(pt 256 48)
 		(output)
 		(text "monster_shootY[10..0]" (rect 0 0 113 12)(font "Arial" ))
-		(text "monster_shootY[10..0]" (rect 140 43 235 55)(font "Arial" ))
+		(text "monster_shootY[10..0]" (rect 140 43 253 55)(font "Arial" ))
 		(line (pt 256 48)(pt 240 48)(line_width 3))
 	)
 	(port
 		(pt 256 64)
 		(output)
 		(text "drawingRequest" (rect 0 0 77 12)(font "Arial" ))
-		(text "drawingRequest" (rect 170 59 235 71)(font "Arial" ))
+		(text "drawingRequest" (rect 170 59 247 71)(font "Arial" ))
 		(line (pt 256 64)(pt 240 64))
 	)
 	(port
 		(pt 256 80)
 		(output)
 		(text "RGBout[7..0]" (rect 0 0 64 12)(font "Arial" ))
-		(text "RGBout[7..0]" (rect 181 75 235 87)(font "Arial" ))
+		(text "RGBout[7..0]" (rect 181 75 245 87)(font "Arial" ))
 		(line (pt 256 80)(pt 240 80)(line_width 3))
 	)
 	(port
 		(pt 256 96)
 		(output)
 		(text "win" (rect 0 0 15 12)(font "Arial" ))
-		(text "win" (rect 223 91 235 103)(font "Arial" ))
+		(text "win" (rect 223 91 238 103)(font "Arial" ))
 		(line (pt 256 96)(pt 240 96))
 	)
 	(drawing
@@ -673,72 +569,9 @@ agreement for further details.
 	(pt 296 480)
 )
 (connector
-	(pt 112 208)
-	(pt 192 208)
-)
-(connector
-	(pt 112 48)
-	(pt 112 208)
-)
-(connector
-	(pt 96 224)
-	(pt 192 224)
-)
-(connector
-	(pt 96 64)
-	(pt 96 224)
-)
-(connector
-	(pt 80 240)
-	(pt 192 240)
-)
-(connector
-	(pt 80 80)
-	(pt 80 240)
-)
-(connector
-	(text "rndY[4..0]" (rect 418 192 464 209)(font "Intel Clear" ))
-	(pt 408 208)
-	(pt 552 208)
-	(bus)
-)
-(connector
-	(text "clk" (rect 58 32 72 49)(font "Intel Clear" ))
-	(pt 48 48)
-	(pt 112 48)
-)
-(connector
-	(pt 112 48)
-	(pt 192 48)
-)
-(connector
-	(text "resetN" (rect 58 48 88 65)(font "Intel Clear" ))
-	(pt 48 64)
-	(pt 96 64)
-)
-(connector
-	(pt 96 64)
-	(pt 192 64)
-)
-(connector
-	(text "startOfFrame" (rect -6 64 57 81)(font "Intel Clear" ))
-	(pt -8 80)
-	(pt 80 80)
-)
-(connector
-	(pt 80 80)
-	(pt 192 80)
-)
-(connector
 	(text "startOfFrame" (rect 170 480 233 497)(font "Intel Clear" ))
 	(pt 160 496)
 	(pt 384 496)
-)
-(connector
-	(text "rndX[4..0]" (rect 418 32 464 49)(font "Intel Clear" ))
-	(pt 408 48)
-	(pt 544 48)
-	(bus)
 )
 (connector
 	(text "topleftX[10..0]" (rect 650 408 718 425)(font "Intel Clear" ))
@@ -841,7 +674,4 @@ agreement for further details.
 	(pt 1216 488)
 	(pt 1312 488)
 )
-(junction (pt 112 48))
-(junction (pt 96 64))
-(junction (pt 80 80))
 (rectangle (rect 416 184 1824 552)(color 0 0 0)(line_width 3))
